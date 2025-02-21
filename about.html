@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal-Jewelry - About</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <img src="img/logo.png" alt="" class="logo">
+                <a class="navbar-brand" href="index.html">
+                    <h2>Crystal Jewelry</h2>
+                </a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Side Bar -->
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-white border-bottom">
+                        <img src="img/logo.png" alt="" class="side-logo">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Crystal Jewellery</h5>
+                        <button type="button " class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body flex-column flex-lg-row">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  mx-2 active" aria-current="page" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="special-offer.html">Special Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="new-arrival.html">New Arrival</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mx-2" href="new-arrival.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                   
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="right-nav d-flex justify-content-center align-items-center gap-3">
+                            <input type="text" placeholder="search" class="right-nav-input" id="search-item">
+                            <button class="nav-search text-white text-decoration-none">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <a href="sign.html" class="nav-user text-white text-decoration-none">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                            <!-- <a href="" class="nav-cart text-white text-decoration-none"> -->
+                            <!-- <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                            <span class="cart-item-count"></span> -->
+
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                <span class="cart-item-count"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="img/Neck.png" alt="" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Rose Quartz Crystal Necklace</h2>
+                    <span class="cart-price">$49.99</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+
+                    </div>
+                </div>
+                <i class="fa-regular fa-trash-can"></i>
+            </div> -->
+        </div>
+        <div class="cart-total">
+            <div class="cart-total-title">Total</div>
+            <div class="total-price">Rs.0.00</div>
+        </div>
+        <button class="cart-buy-btn">Buy Now</button>
+        <span id="cart-close-btn">X</span>
+    </div>
+
+    <section class="about-hero">
+        <div class="about-heading">
+            <h1>About Us</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-hero-content">
+                <h2>Our Story</h2>
+                <p>Inspired by the natural beauty of crystals, we started our journey to create unique and elegant
+                    jewelry pieces that resonate with our customers.</p>
+                <h2>Mission and Vision</h2>
+                <p>Our mission is to provide high-quality crystal jewelry that combines traditional craftsmanship with
+                    modern design. We envision a future where our jewelry brings joy and elegance to people's lives.</p>
+                <h2>Our Expertise</h2>
+                <p>With over 20 years of experience in the jewelry industry, our team of skilled artisans meticulously
+                    crafts each piece of jewelry using the finest materials and techniques.</p>
+            </div>
+            <div class="about-hero-img">
+                <img src="img/pngegg (5).png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Customer Testimonials</h2>
+        <blockquote>
+            <p>"I absolutely love my crystal necklace! It's beautifully crafted and adds a touch of elegance to any
+                outfit."</p>
+            <cite>— Sara</cite>
+        </blockquote>
+    </section>
+<form action="">
+    <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Name" class="payInput" required>
+        <label for="number">Phone Number:</label>
+        <input type="number" placeholder="Phone Number" class="payInput" required>
+        <label for="address">Address:</label>
+        <input type="text" placeholder="Address" class="payInput" required>
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+            <img src="/img/visa.png" width="40px" class="cardIcon" alt="">
+            <img src="/img/master.png" width="40px" class="cardIcon" alt="">
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number" required>
+        <div class="cardInfo">
+            <input type="text" placeholder="mm" class="payInput sm" required>
+            <input type="text" placeholder="yyy" class="payInput sm" required>
+            <input type="text" placeholder="cvv" class="payInput sm" required>
+        </div>
+        <button class="paybutton">Check Out!</button>
+        <span class="close">X</span>
+    </div>
+</form>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="contact.html">Contact</a></li>
+                    <li class="fListItem"><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="special-offer.html">Special Offer</a></li>
+                    <li class="fListItem"><a href="new-arrival.html">New Arrival</a></li>
+                    <li class="fListItem"><a href="products.html">Products</a></li>
+                    <li class="fListItem"><a href="sign.html">Sign Up</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Product</h1>
+                <ul class="fList">
+                    <li class="fListItem"><a href="products.html#ring">Rings</a></li>
+                    <li class="fListItem"><a href="products.html#earring">Earrings</a></li>
+                    <li class="fListItem"><a href="products.html#necklace">Necklace</a></li>
+                    <li class="fListItem"><a href="products.html#bracelet">Bracelet</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerRight">
+            <div class="fRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput" required>
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+
+            <div class="fRightMenu">
+                <h1 class="fMenuTitle">Follow Us.</h1>
+                <div class="fIcons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="fRightMenu">
+                <span class="copyright">&copy; Crystal Jewellery. All rights reserved. 2025.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
